@@ -26,7 +26,7 @@ public class TextureData : UpdatableData
         savedMinHeight = minHeight;
         savedMaxHeight = maxHeight;
         
-        material.SetFloat("minHeight", minHeight);
-        material.SetFloat("maxHeight", maxHeight);
+        MainThreadDispatcher.Instance().Enqueue(() => material.SetFloat("minHeight", minHeight));
+        MainThreadDispatcher.Instance().Enqueue(() => material.SetFloat("maxHeight", maxHeight));
     }
 }

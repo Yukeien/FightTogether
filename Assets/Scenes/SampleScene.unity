@@ -278,7 +278,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288730656}
-  m_Mesh: {fileID: 859579894}
+  m_Mesh: {fileID: 1166087191}
 --- !u!4 &288730659
 Transform:
   m_ObjectHideFlags: 0
@@ -311,7 +311,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1839793093}
   m_PrefabAsset: {fileID: 0}
---- !u!43 &859579894
+--- !u!43 &1166087191
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -587,11 +587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.8
+      value: 20.8
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 65.8
       objectReference: {fileID: 0}
     - target: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
       propertyPath: m_LocalRotation.w
